@@ -1,1 +1,1 @@
-export * from './opAvatar';
+export * from "./OPAvatar";

@@ -1,5 +1,5 @@
-import OpenPaaSComponent from './components/openpaas';
-import * as components from './components';
+import OpenPaaSComponent from "./components/OpenPaaS";
+import * as components from "./components";
 
 const OpenPaaS = {
   install(Vue, args) {
@@ -10,7 +10,7 @@ const OpenPaaS = {
   }
 };
 
-if (typeof window !== 'undefined' && window.Vue) {
+if (typeof window !== "undefined" && window.Vue) {
   window.Vue.use(OpenPaaS);
 }
 
