@@ -1,4 +1,4 @@
-import opAvatar from "./OPAvatar";
+import OPAvatar from "./OPAvatar";
 
-export { opAvatar };
-export default opAvatar;
+export { OPAvatar };
+export default OPAvatar;
