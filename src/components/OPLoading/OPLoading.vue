@@ -17,15 +17,14 @@ export default VProgressCircular.extend({
   },
   computed: {
     componentProps() {
-      const $props = Object.assign(
-        {
-          color: "amber",
-          size: 50,
-          indeterminate: true
-        },
-        this.$props
-      );
+      const defaults = {
+        color: "amber",
+        size: 50,
+        indeterminate: true
+      };
+      const $props = Object.assign({}, this.$props, defaults);
       delete $props.waitingText;
+
       return $props;
     }
   }
