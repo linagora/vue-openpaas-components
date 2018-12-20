@@ -15,4 +15,7 @@ if (typeof window !== "undefined" && window.Vue) {
 }
 
 export default OpenPaaS;
-export * from "./components";
+export {
+  OPLoading,
+  OPAvatar
+} from "./components";
