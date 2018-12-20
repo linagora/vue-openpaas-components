@@ -1,2 +1,2 @@
-export * from "./OPAvatar";
-export * from "./OPLoading";
+export { OPAvatar } from "./OPAvatar";
+export { OPLoading } from "./OPLoading";
