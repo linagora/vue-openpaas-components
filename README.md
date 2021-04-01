@@ -1,3 +1,5 @@
+![Archived](https://img.shields.io/badge/Current_Status-archived-blue?style=flat)
+
 # vue-openpaas-components
 
 This module is a collection of Vue components to be used by OpenPaaS Vue projects.
